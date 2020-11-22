@@ -45,13 +45,14 @@
 		</include>
 
 		<include>
-			<uri>model://way_sign</uri>
-			<pose>1.35 0 -0.15 0 0 -1.57</pose>
+			<uri>model://train_sign</uri>
+			<pose>1 0 -0.15 0 0 -1.57</pose>
+			<!-- <pose>0 0 0 0 0 -1.57</pose> -->
 		</include>
 
 
 		<light name='spot-light-0' type='spot'>
-      		<pose frame=''>-0.3 0 1.68 0 1.57 3.14</pose>
+      		<pose frame=''>-0.3 0 1.68 0 1.4 3.14</pose>
       		<diffuse>0.5 0.5 0.5 1</diffuse>
       		<specular>0.1 0.1 0.1 1</specular>
       		<direction>0 0 -1</direction>
