@@ -15,9 +15,9 @@
     <unit meter="0.001000" name="centimeter"/>
     <up_axis>Z_UP</up_axis>
   </asset>
-  <!-- <library_images>
+  <library_images>
     <image id="MapFBXASC032FBXASC03521-image" name="MapFBXASC032FBXASC03521">
-      <init_from>../cast_sign/materials/textures/CastSign_Diffuse.png</init_from>
+      <init_from>../materials/textures/CastSign_Diffuse.png</init_from>
     </image>
   </library_images>
   <library_materials>
@@ -28,39 +28,58 @@
   <library_effects>
     <effect id="MaterialFBXASC032FBXASC03510-fx" name="MaterialFBXASC032FBXASC03510">
       <profile_COMMON>
-        <technique sid="standard">
-          <phong>
+        <technique sid="common">
+          <blinn>
             <emission>
-              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+              <color sid="emission">0.400000  0.400000 0.400000 1.000000</color>
             </emission>
             <ambient>
-              <color sid="ambient">0.314488  0.314488 0.314488 1.000000</color>
+              <color sid="ambient">1 1 1 1</color>
             </ambient>
             <diffuse>
-              <texture texture="MapFBXASC032FBXASC03521-image" texcoord="CHANNEL0">
-                <extra>
-                  <technique profile="MAYA">
-                    <wrapU sid="wrapU0">TRUE</wrapU>
-                    <wrapV sid="wrapV0">TRUE</wrapV>
-                    <blend_mode>ADD</blend_mode>
-                  </technique>
-                </extra>
-              </texture>
+              <color sid="ambient">1 1 1 1</color>
             </diffuse>
             <specular>
-              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+              <color sid="specular">0.900000  0.900000 0.900000 1.000000</color>
             </specular>
             <shininess>
               <float sid="shininess">9.999998</float>
             </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
             <transparency>
               <float sid="transparency">0.000000</float>
             </transparency>
-          </phong>
+          </blinn>
         </technique>
       </profile_COMMON>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <extended_shader>
+            <apply_reflection_dimming>0</apply_reflection_dimming>
+            <dim_level>0</dim_level>
+            <falloff_type>0</falloff_type>
+            <index_of_refraction>1.5</index_of_refraction>
+            <opacity_type>0</opacity_type>
+            <reflection_level>3</reflection_level>
+            <wire_size>1</wire_size>
+            <wire_units>0</wire_units>
+          </extended_shader>
+          <shader>
+            <ambient_diffuse_lock>1</ambient_diffuse_lock>
+            <ambient_diffuse_texture_lock>1</ambient_diffuse_texture_lock>
+            <diffuse_specular_lock>0</diffuse_specular_lock>
+            <soften>0.1</soften>
+            <use_self_illum_color>0</use_self_illum_color>
+          </shader>
+        </technique>
+      </extra>
     </effect>
-  </library_effects> -->
+  </library_effects>
   <library_geometries>
     <geometry id="Rectangle001-lib" name="Rectangle001Mesh">
       <mesh>
