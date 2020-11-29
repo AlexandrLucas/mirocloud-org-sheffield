@@ -58,6 +58,25 @@
 			<pose>2.175 -0.80 0 0 0 3.14</pose>
 		</include>
 
+		<light name='cast-light' type='spot'>
+					<pose frame=''>2.175 0.3 1.5 -1.57 -1.57 0</pose>
+					<diffuse>0.5 0.5 0.5 1</diffuse>
+					<specular>0.1 0.1 0.1 1</specular>
+					<direction>0 0 -1</direction>
+					<attenuation>
+						<range>20</range>
+						<constant>0.5</constant>
+						<linear>0.01</linear>
+						<quadratic>0.001</quadratic>
+					</attenuation>
+					<spot>
+						<inner_angle>0.6</inner_angle>
+						<outer_angle>0.8</outer_angle>
+						<falloff>1.0</falloff>
+					</spot>
+					<cast_shadows>0</cast_shadows>
+			</light>
+
 		<include>
 			<name>miro_table-2</name>
 			<uri>model://miro_table</uri>
@@ -70,6 +89,25 @@
 			<pose>3.665 0.0 0 0 0 -1.57</pose>
 			<!-- 3.625 + 0.04 -->
 		</include>
+
+		<light name='stop-light' type='spot'>
+					<pose frame=''>2.60 0 1.5 0 -1.57 0</pose>
+					<diffuse>0.5 0.5 0.5 1</diffuse>
+					<specular>0.1 0.1 0.1 1</specular>
+					<direction>0 0 -1</direction>
+					<attenuation>
+						<range>20</range>
+						<constant>0.5</constant>
+						<linear>0.01</linear>
+						<quadratic>0.001</quadratic>
+					</attenuation>
+					<spot>
+						<inner_angle>0.6</inner_angle>
+						<outer_angle>0.8</outer_angle>
+						<falloff>1.0</falloff>
+					</spot>
+					<cast_shadows>0</cast_shadows>
+			</light>
 
 <!-- Part 2 -->
 
@@ -90,6 +128,25 @@
 			<uri>model://way_sign</uri>
 			<pose>2.15 4.2 -0.15 0 0 0</pose>
 		</include>
+
+		<light name='way-light' type='spot'>
+					<pose frame=''>2.15 3.2 1.5 1.57 -1.57 0</pose>
+					<diffuse>0.5 0.5 0.5 1</diffuse>
+					<specular>0.1 0.1 0.1 1</specular>
+					<direction>0 0 -1</direction>
+					<attenuation>
+						<range>20</range>
+						<constant>0.5</constant>
+						<linear>0.01</linear>
+						<quadratic>0.001</quadratic>
+					</attenuation>
+					<spot>
+						<inner_angle>0.6</inner_angle>
+						<outer_angle>0.8</outer_angle>
+						<falloff>1.0</falloff>
+					</spot>
+					<cast_shadows>0</cast_shadows>
+			</light>
 
 <!-- Part 3 -->
 
@@ -143,11 +200,49 @@
 			<pose>-0.3 3.85 0 0 0 1.57</pose>
 		</include>
 
+		<light name='train-light' type='spot'>
+					<pose frame=''>0.7 3.85 1.5 3.14 -1.57 0</pose>
+					<diffuse>0.5 0.5 0.5 1</diffuse>
+					<specular>0.1 0.1 0.1 1</specular>
+					<direction>0 0 -1</direction>
+					<attenuation>
+						<range>20</range>
+						<constant>0.5</constant>
+						<linear>0.01</linear>
+						<quadratic>0.001</quadratic>
+					</attenuation>
+					<spot>
+						<inner_angle>0.6</inner_angle>
+						<outer_angle>0.8</outer_angle>
+						<falloff>1.0</falloff>
+					</spot>
+					<cast_shadows>0</cast_shadows>
+			</light>
+
 		<include>
 			<name>tree_sign</name>
 			<uri>model://tree_sign</uri>
 			<pose>0.3 1.65 0 0 0 -3.14</pose>
 		</include>
+
+		<light name='tree-light' type='spot'>
+					<pose frame=''>0.3 2.65 1.5 -1.57 -1.57 0</pose>
+					<diffuse>0.5 0.5 0.5 1</diffuse>
+					<specular>0.1 0.1 0.1 1</specular>
+					<direction>0 0 -1</direction>
+					<attenuation>
+						<range>20</range>
+						<constant>0.5</constant>
+						<linear>0.01</linear>
+						<quadratic>0.001</quadratic>
+					</attenuation>
+					<spot>
+						<inner_angle>0.6</inner_angle>
+						<outer_angle>0.8</outer_angle>
+						<falloff>1.0</falloff>
+					</spot>
+					<cast_shadows>0</cast_shadows>
+			</light>
 
 		<include>
 			<name>miro_table-8</name>
@@ -161,47 +256,66 @@
 			<pose>-1 2.3 0 0 0 1.57</pose>
 		</include>
 
-		<light name='spot-light-0' type='spot'>
-      		<pose frame=''>2.175 -0.22 1.68 0 0.78 -1.57</pose>
-      		<diffuse>0.5 0.5 0.5 1</diffuse>
-      		<specular>0.1 0.1 0.1 1</specular>
-      		<direction>0 0 -1</direction>
-      		<attenuation>
-        		<range>20</range>
-        		<constant>0.5</constant>
-        		<linear>0.01</linear>
-        		<quadratic>0.001</quadratic>
-      		</attenuation>
-      		<spot>
-      			<inner_angle>0.6</inner_angle>
-      			<outer_angle>0.8</outer_angle>
-      			<falloff>1.0</falloff>
-      		</spot>
-      		<cast_shadows>0</cast_shadows>
-    	</light>
+		<light name='gold-light' type='spot'>
+					<pose frame=''>0 2.3 1.5 3.14 -1.57 0</pose>
+					<diffuse>0.5 0.5 0.5 1</diffuse>
+					<specular>0.1 0.1 0.1 1</specular>
+					<direction>0 0 -1</direction>
+					<attenuation>
+						<range>20</range>
+						<constant>0.5</constant>
+						<linear>0.01</linear>
+						<quadratic>0.001</quadratic>
+					</attenuation>
+					<spot>
+						<inner_angle>0.6</inner_angle>
+						<outer_angle>0.8</outer_angle>
+						<falloff>1.0</falloff>
+					</spot>
+					<cast_shadows>0</cast_shadows>
+			</light>
 
 		<gravity>0 0 -9.8</gravity>
 		<magnetic_field>6e-06 2.3e-05 -4.2e-05</magnetic_field>
 		<atmosphere type='adiabatic'/>
 
-		<light name='spot-light-1' type='spot'>
-      		<pose frame=''>2.75 3.8 1.68 -0.78 0 -1.57</pose>
-      		<diffuse>0.5 0.5 0.5 1</diffuse>
-      		<specular>0.1 0.1 0.1 1</specular>
-      		<direction>0 0 -1</direction>
-      		<attenuation>
-        		<range>20</range>
-        		<constant>0.5</constant>
-        		<linear>0.01</linear>
-        		<quadratic>0.001</quadratic>
-      		</attenuation>
-      		<spot>
-      			<inner_angle>0.6</inner_angle>
-      			<outer_angle>0.8</outer_angle>
-      			<falloff>1.0</falloff>
-      		</spot>
-      		<cast_shadows>0</cast_shadows>
-    	</light>
+		<light name='first-junction-light' type='spot'>
+					<pose frame=''>2.175 -0.22 1.68 0 0.78 -1.57</pose>
+					<diffuse>0.5 0.5 0.5 1</diffuse>
+					<specular>0.1 0.1 0.1 1</specular>
+					<direction>0 0 -1</direction>
+					<attenuation>
+						<range>20</range>
+						<constant>0.5</constant>
+						<linear>0.01</linear>
+						<quadratic>0.001</quadratic>
+					</attenuation>
+					<spot>
+						<inner_angle>0.6</inner_angle>
+						<outer_angle>0.8</outer_angle>
+						<falloff>1.0</falloff>
+					</spot>
+					<cast_shadows>0</cast_shadows>
+			</light>
+
+		<light name='second-junction-light' type='spot'>
+					<pose frame=''>2.75 3.8 1.68 -0.78 0 -1.57</pose>
+					<diffuse>0.5 0.5 0.5 1</diffuse>
+					<specular>0.1 0.1 0.1 1</specular>
+					<direction>0 0 -1</direction>
+					<attenuation>
+						<range>20</range>
+						<constant>0.5</constant>
+						<linear>0.01</linear>
+						<quadratic>0.001</quadratic>
+					</attenuation>
+					<spot>
+						<inner_angle>0.6</inner_angle>
+						<outer_angle>0.8</outer_angle>
+						<falloff>1.0</falloff>
+					</spot>
+					<cast_shadows>0</cast_shadows>
+			</light>
 
 		<gravity>0 0 -9.8</gravity>
 		<magnetic_field>6e-06 2.3e-05 -4.2e-05</magnetic_field>
