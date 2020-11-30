@@ -36,7 +36,7 @@
 
 		<include>
 			<uri>model://miro_model</uri>
-			<pose>0 0 1.115 0 0 0</pose>
+			<pose>0 0 1.115 0 0 0.7</pose>
 		</include>
 
 		<include>
@@ -45,7 +45,7 @@
 		</include>
 
 		<include>
-			<uri>model://train_sign</uri>
+			<uri>model://tree_sign</uri>
 			<pose>1 0 -0.15 0 0 -1.57</pose>
 			<!-- <pose>0 0 0 0 0 -1.57</pose> -->
 		</include>
