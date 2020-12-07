@@ -85,7 +85,7 @@
 
 		<include>
 			<name>stop_sign</name>
-			<uri>model://stop_sign</uri>
+			<uri>model://stop_sign_remodeled</uri>
 			<pose>3.665 0.0 0 0 0 -1.57</pose>
 			<!-- 3.625 + 0.04 -->
 		</include>
