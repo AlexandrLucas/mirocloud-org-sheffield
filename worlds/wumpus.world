@@ -77,6 +77,20 @@
 			<pose>1.88 3.248 1.03 0 0 1.57</pose>
 		</include>
 
+		<light name='chest_glow' type='point'>
+		<pose>2.00143 3.30582 1.19676 0 -0 0</pose>
+		<diffuse>1 0.84 0 1</diffuse>
+		<specular>1 0.84 0 1</specular>
+		<attenuation>
+			<range>20</range>
+			<constant>0.8</constant>
+			<linear>1.0</linear>
+			<quadratic>1.0</quadratic>
+		</attenuation>
+		<cast_shadows>0</cast_shadows>
+		<direction>0 0 -1</direction>
+		</light>
+
 		<include>
 			<name>tile-1</name>
 			<uri>model://platform_tile</uri>
