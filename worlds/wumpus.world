@@ -74,7 +74,7 @@
 
 		<include>
 			<uri>model://treasure_chest</uri>
-			<pose>1.88 3.248 1.03 0 0 0</pose>
+			<pose>1.88 3.248 1.03 0 0 1.57</pose>
 		</include>
 
 		<include>
