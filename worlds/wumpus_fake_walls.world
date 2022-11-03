@@ -294,7 +294,80 @@
 			<uri>model://grey_wall</uri>
   		    <pose>2 2.5 1.2 0 0 0</pose>
 		</include>																
+<!-- 
+		<include>
+			<name>fake_wall-1</name>
+			<uri>model://fake_wall</uri>
+  		    <pose>0.5 0 1.2 0 0 1.57</pose>
+		</include>
 
+		<include>
+			<name>fake_wall-2</name>
+			<uri>model://fake_wall</uri>
+  		    <pose>1.5 0 1.2 0 0 1.57</pose>
+		</include>
+
+		<include>
+			<name>fake_wall-3</name>
+			<uri>model://fake_wall</uri>
+  		    <pose>2.5 0 1.2 0 0 1.57</pose>
+		</include>
+
+		<include>
+			<name>fake_wall-4</name>
+			<uri>model://fake_wall</uri>
+  		    <pose>0.5 1 1.2 0 0 1.57</pose>
+		</include>
+
+		<include>
+			<name>fake_wall-5</name>
+			<uri>model://fake_wall</uri>
+  		    <pose>1.5 1 1.2 0 0 1.57</pose>
+		</include>
+
+		<include>
+			<name>fake_wall-6</name>
+			<uri>model://fake_wall</uri>
+  		    <pose>2.5 1 1.2 0 0 1.57</pose>
+		</include>
+
+		<include>
+			<name>fake_wall-7</name>
+			<uri>model://fake_wall</uri>
+  		    <pose>0.5 2 1.2 0 0 1.57</pose>
+		</include>
+
+		<include>
+			<name>fake_wall-8</name>
+			<uri>model://fake_wall</uri>
+  		    <pose>1.5 2 1.2 0 0 1.57</pose>
+		</include>
+
+		<include>
+			<name>fake_wall-9</name>
+			<uri>model://fake_wall</uri>
+  		    <pose>2.5 2 1.2 0 0 1.57</pose>
+		</include>
+
+		<include>
+			<name>fake_wall-10</name>
+			<uri>model://fake_wall</uri>
+  		    <pose>0.5 3 1.2 0 0 1.57</pose>
+		</include> -->
+
+
+		<include>
+			<name>fake_wall-11</name>
+			<uri>model://fake_wall</uri>
+  		    <pose>1.5 3 1.2 0 0 1.57</pose>
+		</include>
+
+		<include>
+			<name>fake_wall-12</name>
+			<uri>model://fake_wall</uri>
+  		    <pose>2.5 3 1.2 0 0 1.57</pose>
+		</include> 
+		
 		<gravity>0 0 -9.8</gravity>
 		<magnetic_field>6e-06 2.3e-05 -4.2e-05</magnetic_field>
 		<atmosphere type='adiabatic'/>
