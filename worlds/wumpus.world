@@ -74,11 +74,11 @@
 
 		<include>
 			<uri>model://treasure_chest</uri>
-			<pose>1.88 3.248 1.03 0 0 0</pose>
+			<pose>1.88 3.248 1.03 1.57 0 1.57</pose>
 		</include>
 
 		<light name='chest_glow' type='point'>
-		<pose>2.00143 3.30582 1.19676 0 -0 0</pose>
+		<pose>2 3.27 1.18 0 0 0</pose>
 		<diffuse>1 0.84 0 1</diffuse>
 		<specular>1 0.84 0 1</specular>
 		<attenuation>
