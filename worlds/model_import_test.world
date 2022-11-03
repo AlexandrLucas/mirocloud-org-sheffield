@@ -36,18 +36,24 @@
 
 		<include>
 			<uri>model://miro_model</uri>
-			<pose>0 0 1.115 0 0 0.7</pose>
+			<pose>-1 0 1.115 0 0 0.7</pose>
 		</include>
 
 		<include>
-			<uri>model://miro_table</uri>
+			<name>tile-1</name>
+			<uri>model://platform_tile</uri>
 			<pose>0 0 0 0 0 0</pose>
 		</include>
 
 		<include>
-			<uri>model://tree_sign</uri>
-			<pose>1 0 -0.15 0 0 -1.57</pose>
-			<!-- <pose>0 0 0 0 0 -1.57</pose> -->
+			<name>tile-2</name>
+			<uri>model://platform_tile</uri>
+			<pose>-1 0 0 0 0 0</pose>
+		</include>
+
+		<include>
+			<uri>model://treasure_chest</uri>
+			<pose>0 0 1.03 0 0 0</pose>
 		</include>
 
 
