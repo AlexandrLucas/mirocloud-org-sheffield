@@ -83,9 +83,9 @@
 		<specular>1 0.84 0 1</specular>
 		<attenuation>
 			<range>0.8</range>
-			<constant>0.2</constant>
+			<constant>0.1</constant>
 			<linear>0.3</linear>
-			<quadratic>3.0</quadratic>
+			<quadratic>2.0</quadratic>
 		</attenuation>
 		<cast_shadows>1</cast_shadows>
 		<direction>0 0 -1</direction>
@@ -309,10 +309,8 @@
 
 		<gui fullscreen='0'>
 			<camera name='user_camera'>
-				<!--
-				<pose frame=''>1.40328 -0.966443 0.97483 0 0.45964 2.34021</pose>
-				-->
-				<pose frame=''>-0.373365 -0.8231 1.66421 -0 0.355638 0.94021</pose>
+				<!-- <pose frame=''>-0.373365 -0.8231 1.66421 -0 0.355638 0.94021</pose> -->
+				<pose>1.586 -3.83576 4.77602 0 0.591638 1.53621</pose>
 				<view_controller>orbit</view_controller>
 				<projection_type>perspective</projection_type>
 			</camera>
