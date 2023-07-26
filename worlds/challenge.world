@@ -228,6 +228,11 @@
 			<pose>3.06 1.82 0.1 1.57 0 0</pose>
 		</include>
 
+		<include>
+			<name>AprilTag</name>
+			<uri>model://april_tag16_05_5</uri>
+			<pose>2.88 2.95 0.4 -1.57 0 -1.57</pose>
+		</include>	
 
 		<gravity>0 0 -9.8</gravity>
 		<magnetic_field>6e-06 2.3e-05 -4.2e-05</magnetic_field>
