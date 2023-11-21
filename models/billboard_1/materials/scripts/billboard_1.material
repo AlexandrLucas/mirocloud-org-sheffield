@@ -1,0 +1,18 @@
+material billboard_1/Diffuse
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture brennan-ehrhardt-HALe2SmkWAI-unsplash.jpg
+				filtering anistropic
+				max_anisotropy 8
+				scale 1 1
+				rotate 90
+			}
+		}
+	}
+}
