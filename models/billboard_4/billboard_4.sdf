@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="billboard_4">
+    <static>true</static>
+      <link name="billboard_4">
+        <collision name="billboard-collision">
+          <pose>0 0 0 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>3.5 4.8 0.00</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="billboard-visual">
+          <pose>0 0 0 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>3.5 4.8 0.00</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://billboard_4/materials/scripts</uri>
+              <uri>model://billboard_4/materials/textures</uri>
+              <name>billboard_4/Diffuse</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+  </model>
+</sdf>

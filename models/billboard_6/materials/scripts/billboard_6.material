@@ -1,0 +1,18 @@
+material billboard_6/Diffuse
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture kelly-sikkema-ik0ZEG8MBgM-unsplash.jpg
+				filtering anistropic
+				max_anisotropy 8
+				scale 1 1
+				rotate 90
+			}
+		}
+	}
+}

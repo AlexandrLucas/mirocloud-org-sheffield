@@ -1,0 +1,18 @@
+material billboard_5/Diffuse
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture eugene-zhyvchik-KyatpmdWkXQ-unsplash.jpg
+				filtering anistropic
+				max_anisotropy 8
+				scale 1 1
+				rotate 90
+			}
+		}
+	}
+}

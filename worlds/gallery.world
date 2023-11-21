@@ -71,6 +71,21 @@
 			<pose>7 0 0 0 0 0</pose>
 		</include>
 
+		<include>
+			<uri>model://billboard_4</uri>
+			<pose>7 2.6 2.5 1.57 0 0</pose>
+		</include>
+
+		<include>
+			<uri>model://billboard_5</uri>
+			<pose>7 -2 2.2 1.57 0 0</pose>
+		</include>
+
+		<include>
+			<uri>model://billboard_6</uri>
+			<pose>8.5 0 1.6 1.57 0 1.57</pose>
+		</include>
+
 
 		<spherical_coordinates>
 			<surface_model>EARTH_WGS84</surface_model>
