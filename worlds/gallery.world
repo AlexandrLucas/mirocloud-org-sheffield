@@ -35,8 +35,6 @@
 			<pose>0 0 0 0 0 0</pose>
 		</include>
 
-<!-- Part 1 -->
-
 		<include>
 			<uri>model://miro_model</uri>
 			<pose>0 0 1.115 0 0 0</pose>
@@ -47,6 +45,12 @@
 			<uri>model://miro_table</uri>
 			<pose>0 0 0 0 0 0</pose>
 		</include>		
+
+		<include>
+			<name>miro_table-1</name>
+			<uri>model://miro_table</uri>
+			<pose>7 0 0 0 0 0</pose>
+		</include>
 
 		<include>
 			<uri>model://billboard_1</uri>
@@ -61,14 +65,6 @@
 		<include>
 			<uri>model://billboard_3</uri>
 			<pose>0 -2.8 2 1.57 0 0</pose>
-		</include>
-
-<!-- Part 2 -->
-
-		<include>
-			<name>miro_table-1</name>
-			<uri>model://miro_table</uri>
-			<pose>7 0 0 0 0 0</pose>
 		</include>
 
 		<include>
