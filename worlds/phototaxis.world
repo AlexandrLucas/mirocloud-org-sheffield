@@ -51,7 +51,7 @@
 
 		<light name='sun' type='directional'>
 			<cast_shadows>0</cast_shadows>
-			<pose frame=''>0 0 10 0 -0 0</pose>
+			<pose frame=''>0 0 9.9 0 -0 0</pose>
 			<diffuse>0.7 0.7 0.7 1</diffuse>
 			<specular>0.1 0.1 0.1 1</specular>
 			<attenuation>
@@ -108,11 +108,11 @@
 				<pose>4 0 0 0 0 0</pose>
 			</include>
 
-			<!-- <include>
+			<include>
 				<name>tile-6</name>
 				<uri>model://platform_tile</uri>
 				<pose>5 0 0 0 0 0</pose>
-			</include> -->
+			</include>
 
 			<include>
 				<name>tile-7</name>
@@ -144,7 +144,7 @@
 				<pose>4 1 0 0 0 0</pose>
 			</include>
 
-			<!-- <include>
+			<include>
 				<name>tile-12</name>
 				<uri>model://platform_tile</uri>
 				<pose>5 1 0 0 0 0</pose>
@@ -184,9 +184,9 @@
 				<name>tile-18</name>
 				<uri>model://platform_tile</uri>
 				<pose>5 2 0 0 0 0</pose>
-			</include> -->
+			</include>
 
-			<!-- <include>
+			<include>
 				<name>tile-19</name>
 				<uri>model://platform_tile</uri>
 				<pose>0 3 0 0 0 0</pose>
@@ -292,7 +292,7 @@
 				<name>tile-36</name>
 				<uri>model://platform_tile</uri>
 				<pose>5 5 0 0 0 0</pose>
-			</include> -->
+			</include>
 
 		</model>
 
@@ -306,7 +306,7 @@
 				<pose>0 -0.5 1.2 0 0 0</pose>
 			</include>
 
-			<!-- <include>
+			<include>
 				<name>wall-2</name>
 				<uri>model://grey_wall</uri>
 				<pose>1 -0.5 1.2 0 0 0</pose>
@@ -346,9 +346,9 @@
 				<name>wall-8</name>
 				<uri>model://grey_wall</uri>
 				<pose>3 3.5 1.2 0 0 0</pose>
-			</include> -->
+			</include>
 
-			<!-- <include>
+			<include>
 				<name>wall-9</name>
 				<uri>model://grey_wall</uri>
 				<pose>-0.5 0 1.2 0 0 -1.57</pose>
@@ -406,11 +406,11 @@
 				<name>wall-inner-2</name>
 				<uri>model://grey_wall</uri>
 				<pose>2 2.5 1.2 0 0 0</pose>
-			</include> -->
+			</include>
 
 		</model>
 
-		<!-- <include>
+		<include>
 			<name>apriltag-1</name>
 			<uri>model://april_tag16_05_1</uri>
 			<pose>-2.95 2.47 1.2 1.57 0 0</pose>
@@ -444,7 +444,7 @@
 			<name>apriltag-6</name>
 			<uri>model://april_tag16_05_6</uri>
 			<pose>-2.95 -3.47 1.2 1.57 0 0</pose>
-		</include> -->
+		</include>
 
 		<gravity>0 0 -9.8</gravity>
 		<magnetic_field>6e-06 2.3e-05 -4.2e-05</magnetic_field>
