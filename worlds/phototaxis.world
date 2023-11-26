@@ -144,11 +144,11 @@
 				<pose>4 0 0 0 0 0</pose>
 			</include>
 
-			<include>
+			<!-- <include>
 				<name>tile-6</name>
 				<uri>model://platform_tile</uri>
 				<pose>5 0 0 0 0 0</pose>
-			</include>
+			</include> -->
 
 			<include>
 				<name>tile-7</name>
@@ -180,7 +180,7 @@
 				<pose>4 1 0 0 0 0</pose>
 			</include>
 
-			<include>
+			<!-- <include>
 				<name>tile-12</name>
 				<uri>model://platform_tile</uri>
 				<pose>5 1 0 0 0 0</pose>
@@ -220,7 +220,7 @@
 				<name>tile-18</name>
 				<uri>model://platform_tile</uri>
 				<pose>5 2 0 0 0 0</pose>
-			</include>
+			</include> -->
 
 			<!-- <include>
 				<name>tile-19</name>
@@ -342,7 +342,7 @@
 				<pose>0 -0.5 1.2 0 0 0</pose>
 			</include>
 
-			<include>
+			<!-- <include>
 				<name>wall-2</name>
 				<uri>model://grey_wall</uri>
 				<pose>1 -0.5 1.2 0 0 0</pose>
@@ -382,7 +382,7 @@
 				<name>wall-8</name>
 				<uri>model://grey_wall</uri>
 				<pose>3 3.5 1.2 0 0 0</pose>
-			</include>
+			</include> -->
 
 			<!-- <include>
 				<name>wall-9</name>
