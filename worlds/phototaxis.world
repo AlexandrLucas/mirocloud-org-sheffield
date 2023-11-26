@@ -45,7 +45,7 @@
 		<scene>
 			<ambient>0.5 0.5 0.5 1</ambient>
 			<background>0.5 0.5 0.5 1</background>
-			<shadows>0</shadows>
+			<shadows>1</shadows>
 			<grid>0</grid>
 		</scene>
 
