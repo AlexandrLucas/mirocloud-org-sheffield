@@ -109,330 +109,341 @@
 			<pose>-2.95 -3.47 1.2 1.57 0 0</pose>
 		</include>
 
-
-		<include>
-			<name>tile-1</name>
-			<uri>model://platform_tile</uri>
+		<model name="surface">
 			<pose>0 0 0 0 0 0</pose>
-		</include>
+			<static>true</static>
+			<allow_auto_disable>true</allow_auto_disable>
 
-		<include>
-			<name>tile-2</name>
-			<uri>model://platform_tile</uri>
-			<pose>1 0 0 0 0 0</pose>
-		</include>
+			<include>
+				<name>tile-1</name>
+				<uri>model://platform_tile</uri>
+				<pose>0 0 0 0 0 0</pose>
+			</include>
 
-		<include>
-			<name>tile-3</name>
-			<uri>model://platform_tile</uri>
-			<pose>2 0 0 0 0 0</pose>
-		</include>
+			<include>
+				<name>tile-2</name>
+				<uri>model://platform_tile</uri>
+				<pose>1 0 0 0 0 0</pose>
+			</include>
 
-		<include>
-			<name>tile-4</name>
-			<uri>model://platform_tile</uri>
-			<pose>3 0 0 0 0 0</pose>
-		</include>
+			<include>
+				<name>tile-3</name>
+				<uri>model://platform_tile</uri>
+				<pose>2 0 0 0 0 0</pose>
+			</include>
 
-		<include>
-			<name>tile-5</name>
-			<uri>model://platform_tile</uri>
-			<pose>4 0 0 0 0 0</pose>
-		</include>
+			<include>
+				<name>tile-4</name>
+				<uri>model://platform_tile</uri>
+				<pose>3 0 0 0 0 0</pose>
+			</include>
 
-		<include>
-			<name>tile-6</name>
-			<uri>model://platform_tile</uri>
-			<pose>5 0 0 0 0 0</pose>
-		</include>
+			<include>
+				<name>tile-5</name>
+				<uri>model://platform_tile</uri>
+				<pose>4 0 0 0 0 0</pose>
+			</include>
 
-		<include>
-			<name>tile-7</name>
-			<uri>model://platform_tile</uri>
-			<pose>0 1 0 0 0 0</pose>
-		</include>
+			<include>
+				<name>tile-6</name>
+				<uri>model://platform_tile</uri>
+				<pose>5 0 0 0 0 0</pose>
+			</include>
 
-		<include>
-			<name>tile-8</name>
-			<uri>model://platform_tile</uri>
-			<pose>1 1 0 0 0 0</pose>
-		</include>
+			<include>
+				<name>tile-7</name>
+				<uri>model://platform_tile</uri>
+				<pose>0 1 0 0 0 0</pose>
+			</include>
 
-		<include>
-			<name>tile-9</name>
-			<uri>model://platform_tile</uri>
-			<pose>2 1 0 0 0 0</pose>
-		</include>
+			<include>
+				<name>tile-8</name>
+				<uri>model://platform_tile</uri>
+				<pose>1 1 0 0 0 0</pose>
+			</include>
 
-		<include>
-			<name>tile-10</name>
-			<uri>model://platform_tile</uri>
-			<pose>3 1 0 0 0 0</pose>
-		</include>
+			<include>
+				<name>tile-9</name>
+				<uri>model://platform_tile</uri>
+				<pose>2 1 0 0 0 0</pose>
+			</include>
 
-		<include>
-			<name>tile-11</name>
-			<uri>model://platform_tile</uri>
-			<pose>4 1 0 0 0 0</pose>
-		</include>
+			<include>
+				<name>tile-10</name>
+				<uri>model://platform_tile</uri>
+				<pose>3 1 0 0 0 0</pose>
+			</include>
 
-		<include>
-			<name>tile-12</name>
-			<uri>model://platform_tile</uri>
-			<pose>5 1 0 0 0 0</pose>
-		</include>
+			<include>
+				<name>tile-11</name>
+				<uri>model://platform_tile</uri>
+				<pose>4 1 0 0 0 0</pose>
+			</include>
 
-		<include>
-			<name>tile-13</name>
-			<uri>model://platform_tile</uri>
-			<pose>0 2 0 0 0 0</pose>
-		</include>
+			<include>
+				<name>tile-12</name>
+				<uri>model://platform_tile</uri>
+				<pose>5 1 0 0 0 0</pose>
+			</include>
 
-		<include>
-			<name>tile-14</name>
-			<uri>model://platform_tile</uri>
-			<pose>1 2 0 0 0 0</pose>
-		</include>
+			<include>
+				<name>tile-13</name>
+				<uri>model://platform_tile</uri>
+				<pose>0 2 0 0 0 0</pose>
+			</include>
 
-		<include>
-			<name>tile-15</name>
-			<uri>model://platform_tile</uri>
-			<pose>2 2 0 0 0 0</pose>
-		</include>
+			<include>
+				<name>tile-14</name>
+				<uri>model://platform_tile</uri>
+				<pose>1 2 0 0 0 0</pose>
+			</include>
 
-		<include>
-			<name>tile-16</name>
-			<uri>model://platform_tile</uri>
-			<pose>3 2 0 0 0 0</pose>
-		</include>
+			<include>
+				<name>tile-15</name>
+				<uri>model://platform_tile</uri>
+				<pose>2 2 0 0 0 0</pose>
+			</include>
 
-		<include>
-			<name>tile-17</name>
-			<uri>model://platform_tile</uri>
-			<pose>4 2 0 0 0 0</pose>
-		</include>
+			<include>
+				<name>tile-16</name>
+				<uri>model://platform_tile</uri>
+				<pose>3 2 0 0 0 0</pose>
+			</include>
 
-		<include>
-			<name>tile-18</name>
-			<uri>model://platform_tile</uri>
-			<pose>5 2 0 0 0 0</pose>
-		</include>
+			<include>
+				<name>tile-17</name>
+				<uri>model://platform_tile</uri>
+				<pose>4 2 0 0 0 0</pose>
+			</include>
 
-		<include>
-			<name>tile-19</name>
-			<uri>model://platform_tile</uri>
-			<pose>0 3 0 0 0 0</pose>
-		</include>
+			<include>
+				<name>tile-18</name>
+				<uri>model://platform_tile</uri>
+				<pose>5 2 0 0 0 0</pose>
+			</include>
 
-		<include>
-			<name>tile-20</name>
-			<uri>model://platform_tile</uri>
-			<pose>1 3 0 0 0 0</pose>
-		</include>
+			<include>
+				<name>tile-19</name>
+				<uri>model://platform_tile</uri>
+				<pose>0 3 0 0 0 0</pose>
+			</include>
 
-		<include>
-			<name>tile-21</name>
-			<uri>model://platform_tile</uri>
-			<pose>2 3 0 0 0 0</pose>
-		</include>
+			<include>
+				<name>tile-20</name>
+				<uri>model://platform_tile</uri>
+				<pose>1 3 0 0 0 0</pose>
+			</include>
 
-		<include>
-			<name>tile-22</name>
-			<uri>model://platform_tile</uri>
-			<pose>3 3 0 0 0 0</pose>
-		</include>
+			<include>
+				<name>tile-21</name>
+				<uri>model://platform_tile</uri>
+				<pose>2 3 0 0 0 0</pose>
+			</include>
 
-		<include>
-			<name>tile-23</name>
-			<uri>model://platform_tile</uri>
-			<pose>4 3 0 0 0 0</pose>
-		</include>
+			<include>
+				<name>tile-22</name>
+				<uri>model://platform_tile</uri>
+				<pose>3 3 0 0 0 0</pose>
+			</include>
 
-		<include>
-			<name>tile-24</name>
-			<uri>model://platform_tile</uri>
-			<pose>5 3 0 0 0 0</pose>
-		</include>
+			<include>
+				<name>tile-23</name>
+				<uri>model://platform_tile</uri>
+				<pose>4 3 0 0 0 0</pose>
+			</include>
 
-		<include>
-			<name>tile-25</name>
-			<uri>model://platform_tile</uri>
-			<pose>0 4 0 0 0 0</pose>
-		</include>
+			<include>
+				<name>tile-24</name>
+				<uri>model://platform_tile</uri>
+				<pose>5 3 0 0 0 0</pose>
+			</include>
 
-		<include>
-			<name>tile-26</name>
-			<uri>model://platform_tile</uri>
-			<pose>1 4 0 0 0 0</pose>
-		</include>
+			<include>
+				<name>tile-25</name>
+				<uri>model://platform_tile</uri>
+				<pose>0 4 0 0 0 0</pose>
+			</include>
 
-		<include>
-			<name>tile-27</name>
-			<uri>model://platform_tile</uri>
-			<pose>2 4 0 0 0 0</pose>
-		</include>
+			<include>
+				<name>tile-26</name>
+				<uri>model://platform_tile</uri>
+				<pose>1 4 0 0 0 0</pose>
+			</include>
 
-		<include>
-			<name>tile-28</name>
-			<uri>model://platform_tile</uri>
-			<pose>3 4 0 0 0 0</pose>
-		</include>
+			<include>
+				<name>tile-27</name>
+				<uri>model://platform_tile</uri>
+				<pose>2 4 0 0 0 0</pose>
+			</include>
 
-		<include>
-			<name>tile-29</name>
-			<uri>model://platform_tile</uri>
-			<pose>4 4 0 0 0 0</pose>
-		</include>
+			<include>
+				<name>tile-28</name>
+				<uri>model://platform_tile</uri>
+				<pose>3 4 0 0 0 0</pose>
+			</include>
 
-		<include>
-			<name>tile-30</name>
-			<uri>model://platform_tile</uri>
-			<pose>5 4 0 0 0 0</pose>
-		</include>
+			<include>
+				<name>tile-29</name>
+				<uri>model://platform_tile</uri>
+				<pose>4 4 0 0 0 0</pose>
+			</include>
 
-		<include>
-			<name>tile-31</name>
-			<uri>model://platform_tile</uri>
-			<pose>0 5 0 0 0 0</pose>
-		</include>
+			<include>
+				<name>tile-30</name>
+				<uri>model://platform_tile</uri>
+				<pose>5 4 0 0 0 0</pose>
+			</include>
 
-		<include>
-			<name>tile-32</name>
-			<uri>model://platform_tile</uri>
-			<pose>1 5 0 0 0 0</pose>
-		</include>
+			<include>
+				<name>tile-31</name>
+				<uri>model://platform_tile</uri>
+				<pose>0 5 0 0 0 0</pose>
+			</include>
 
-		<include>
-			<name>tile-33</name>
-			<uri>model://platform_tile</uri>
-			<pose>2 5 0 0 0 0</pose>
-		</include>
+			<include>
+				<name>tile-32</name>
+				<uri>model://platform_tile</uri>
+				<pose>1 5 0 0 0 0</pose>
+			</include>
 
-		<include>
-			<name>tile-34</name>
-			<uri>model://platform_tile</uri>
-			<pose>3 5 0 0 0 0</pose>
-		</include>
+			<include>
+				<name>tile-33</name>
+				<uri>model://platform_tile</uri>
+				<pose>2 5 0 0 0 0</pose>
+			</include>
 
-		<include>
-			<name>tile-35</name>
-			<uri>model://platform_tile</uri>
-			<pose>4 5 0 0 0 0</pose>
-		</include>
+			<include>
+				<name>tile-34</name>
+				<uri>model://platform_tile</uri>
+				<pose>3 5 0 0 0 0</pose>
+			</include>
 
-		<include>
-			<name>tile-36</name>
-			<uri>model://platform_tile</uri>
-			<pose>5 5 0 0 0 0</pose>
-		</include>
+			<include>
+				<name>tile-35</name>
+				<uri>model://platform_tile</uri>
+				<pose>4 5 0 0 0 0</pose>
+			</include>
 
-		<include>
-			<name>wall-1</name>
-			<uri>model://grey_wall</uri>
-  			<pose>0 -0.5 1.2 0 0 0</pose>
-		</include>
+			<include>
+				<name>tile-36</name>
+				<uri>model://platform_tile</uri>
+				<pose>5 5 0 0 0 0</pose>
+			</include>
 
-		<include>
-			<name>wall-2</name>
-			<uri>model://grey_wall</uri>
-  			<pose>1 -0.5 1.2 0 0 0</pose>
-		</include>
+		</model>
 
-		<include>
-			<name>wall-3</name>
-			<uri>model://grey_wall</uri>
-  			<pose>3 -0.5 1.2 0 0 0</pose>
-		</include>
+		<model name="walls">
+			<pose>0 0 0 0 0 0</pose>
+			<static>true</static>
+			<allow_auto_disable>true</allow_auto_disable>		
+			<include>
+				<name>wall-1</name>
+				<uri>model://grey_wall</uri>
+				<pose>0 -0.5 1.2 0 0 0</pose>
+			</include>
 
-		<include>
-			<name>wall-4</name>
-			<uri>model://grey_wall</uri>
-  			<pose>3 -0.5 1.2 0 0 0</pose>
-		</include>
+			<include>
+				<name>wall-2</name>
+				<uri>model://grey_wall</uri>
+				<pose>1 -0.5 1.2 0 0 0</pose>
+			</include>
 
-		<include>
-			<name>wall-5</name>
-			<uri>model://grey_wall</uri>
-  			<pose>0 3.5 1.2 0 0 0</pose>
-		</include>
+			<include>
+				<name>wall-3</name>
+				<uri>model://grey_wall</uri>
+				<pose>3 -0.5 1.2 0 0 0</pose>
+			</include>
 
-		<include>
-			<name>wall-6</name>
-			<uri>model://grey_wall</uri>
-  			<pose>1 3.5 1.2 0 0 0</pose>
-		</include>
+			<include>
+				<name>wall-4</name>
+				<uri>model://grey_wall</uri>
+				<pose>3 -0.5 1.2 0 0 0</pose>
+			</include>
 
-		<include>
-			<name>wall-7</name>
-			<uri>model://grey_wall</uri>
-  			<pose>2 3.5 1.2 0 0 0</pose>
-		</include>
+			<include>
+				<name>wall-5</name>
+				<uri>model://grey_wall</uri>
+				<pose>0 3.5 1.2 0 0 0</pose>
+			</include>
 
-		<include>
-			<name>wall-8</name>
-			<uri>model://grey_wall</uri>
-  			<pose>3 3.5 1.2 0 0 0</pose>
-		</include>
+			<include>
+				<name>wall-6</name>
+				<uri>model://grey_wall</uri>
+				<pose>1 3.5 1.2 0 0 0</pose>
+			</include>
 
-		<include>
-			<name>wall-9</name>
-			<uri>model://grey_wall</uri>
-  			<pose>-0.5 0 1.2 0 0 -1.57</pose>
-		</include>
+			<include>
+				<name>wall-7</name>
+				<uri>model://grey_wall</uri>
+				<pose>2 3.5 1.2 0 0 0</pose>
+			</include>
 
-		<include>
-			<name>wall-10</name>
-			<uri>model://grey_wall</uri>
-  			<pose>-0.5 1 1.2 0 0 -1.57</pose>
-		</include>
+			<include>
+				<name>wall-8</name>
+				<uri>model://grey_wall</uri>
+				<pose>3 3.5 1.2 0 0 0</pose>
+			</include>
 
-		<include>
-			<name>wall-11</name>
-			<uri>model://grey_wall</uri>
-  			<pose>-0.5 2 1.2 0 0 -1.57</pose>
-		</include>
+			<include>
+				<name>wall-9</name>
+				<uri>model://grey_wall</uri>
+				<pose>-0.5 0 1.2 0 0 -1.57</pose>
+			</include>
 
-		<include>
-			<name>wall-12</name>
-			<uri>model://grey_wall</uri>
-  			<pose>-0.5 3 1.2 0 0 -1.57</pose>
-		</include>
+			<include>
+				<name>wall-10</name>
+				<uri>model://grey_wall</uri>
+				<pose>-0.5 1 1.2 0 0 -1.57</pose>
+			</include>
 
-		<include>
-			<name>wall-13</name>
-			<uri>model://grey_wall</uri>
-  			<pose>3.5 3 1.2 0 0 -1.57</pose>
-		</include>
+			<include>
+				<name>wall-11</name>
+				<uri>model://grey_wall</uri>
+				<pose>-0.5 2 1.2 0 0 -1.57</pose>
+			</include>
 
-		<include>
-			<name>wall-14</name>
-			<uri>model://grey_wall</uri>
-  			<pose>3.5 2 1.2 0 0 -1.57</pose>
-		</include>
+			<include>
+				<name>wall-12</name>
+				<uri>model://grey_wall</uri>
+				<pose>-0.5 3 1.2 0 0 -1.57</pose>
+			</include>
 
-		<include>
-			<name>wall-15</name>
-			<uri>model://grey_wall</uri>
-  			<pose>3.5 1 1.2 0 0 -1.57</pose>
-		</include>
+			<include>
+				<name>wall-13</name>
+				<uri>model://grey_wall</uri>
+				<pose>3.5 3 1.2 0 0 -1.57</pose>
+			</include>
 
-		<include>
-			<name>wall-16</name>
-			<uri>model://grey_wall</uri>
-  			<pose>3.5 0 1.2 0 0 -1.57</pose>
-		</include>
+			<include>
+				<name>wall-14</name>
+				<uri>model://grey_wall</uri>
+				<pose>3.5 2 1.2 0 0 -1.57</pose>
+			</include>
 
-		<include>
-			<name>wall-inner-1</name>
-			<uri>model://grey_wall</uri>
-  			<pose>0 1.5 1.2 0 0 0</pose>
-		</include>
+			<include>
+				<name>wall-15</name>
+				<uri>model://grey_wall</uri>
+				<pose>3.5 1 1.2 0 0 -1.57</pose>
+			</include>
 
-		<include>
-			<name>wall-inner-2</name>
-			<uri>model://grey_wall</uri>
-  			<pose>2 2.5 1.2 0 0 0</pose>
-		</include>
+			<include>
+				<name>wall-16</name>
+				<uri>model://grey_wall</uri>
+				<pose>3.5 0 1.2 0 0 -1.57</pose>
+			</include>
+
+			<include>
+				<name>wall-inner-1</name>
+				<uri>model://grey_wall</uri>
+				<pose>0 1.5 1.2 0 0 0</pose>
+			</include>
+
+			<include>
+				<name>wall-inner-2</name>
+				<uri>model://grey_wall</uri>
+				<pose>2 2.5 1.2 0 0 0</pose>
+			</include>
+		</model>
 
 		<gravity>0 0 -9.8</gravity>
 		<magnetic_field>6e-06 2.3e-05 -4.2e-05</magnetic_field>
@@ -448,7 +459,7 @@
 
 		<gui fullscreen='0'>
 			<camera name='user_camera'>
-				<pose>1.586 -3.83576 4.77602 0 0.591638 1.53621</pose>
+				<pose>2.6 -10.0 8 0 0.56 1.5</pose>
 				<view_controller>orbit</view_controller>
 				<projection_type>perspective</projection_type>
 			</camera>
