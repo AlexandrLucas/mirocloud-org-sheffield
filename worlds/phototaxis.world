@@ -222,7 +222,7 @@
 				<pose>5 2 0 0 0 0</pose>
 			</include>
 
-			<include>
+			<!-- <include>
 				<name>tile-19</name>
 				<uri>model://platform_tile</uri>
 				<pose>0 3 0 0 0 0</pose>
@@ -328,7 +328,7 @@
 				<name>tile-36</name>
 				<uri>model://platform_tile</uri>
 				<pose>5 5 0 0 0 0</pose>
-			</include>
+			</include> -->
 
 		</model>
 
@@ -384,7 +384,7 @@
 				<pose>3 3.5 1.2 0 0 0</pose>
 			</include>
 
-			<include>
+			<!-- <include>
 				<name>wall-9</name>
 				<uri>model://grey_wall</uri>
 				<pose>-0.5 0 1.2 0 0 -1.57</pose>
@@ -442,7 +442,8 @@
 				<name>wall-inner-2</name>
 				<uri>model://grey_wall</uri>
 				<pose>2 2.5 1.2 0 0 0</pose>
-			</include>
+			</include> -->
+
 		</model>
 
 		<gravity>0 0 -9.8</gravity>
