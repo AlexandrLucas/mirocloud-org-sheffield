@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <!--
 	@section COPYRIGHT
-	Copyright (C) 2021 Consequential Robotics Ltd
-
+	Copyright (C) 2023 Consequential Robotics Ltd
+	
 	@section AUTHOR
 	Consequential Robotics http://consequentialrobotics.com
-
+	
 	@section LICENSE
 	For a full copy of the license agreement, and a complete
 	definition of "The Software", see LICENSE in the MDK root
 	directory.
-
+	
 	Subject to the terms of this Agreement, Consequential
 	Robotics grants to you a limited, non-exclusive, non-
 	transferable license, without right to sub-license, to use
@@ -21,7 +21,7 @@
 	This agreement is a binding legal agreement between
 	Consequential Robotics and the purchasers or users of "The
 	Software".
-
+	
 	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY
 	KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
 	WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
@@ -30,7 +30,7 @@
 	OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
 	OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 	SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
+	
 -->
 
 <sdf version='1.5'>
@@ -45,13 +45,13 @@
 		<scene>
 			<ambient>0.5 0.5 0.5 1</ambient>
 			<background>0.5 0.5 0.5 1</background>
-			<shadows>1</shadows>
+			<shadows>0</shadows>
 			<grid>0</grid>
 		</scene>
 
 		<light name='sun' type='directional'>
 			<cast_shadows>0</cast_shadows>
-			<pose frame=''>0 0 100 0 -0 0</pose>
+			<pose frame=''>0 0 10 0 -0 0</pose>
 			<diffuse>0.7 0.7 0.7 1</diffuse>
 			<specular>0.1 0.1 0.1 1</specular>
 			<attenuation>
@@ -71,42 +71,6 @@
 		<include>
 			<uri>model://miro_model</uri>
 			<pose>0 0 1.115 0 0 0</pose>
-		</include>
-
-		<include>
-			<name>apriltag-1</name>
-			<uri>model://april_tag16_05_1</uri>
-			<pose>-2.95 2.47 1.2 1.57 0 0</pose>
-		</include>
-
-		<include>
-			<name>apriltag-2</name>
-			<uri>model://april_tag16_05_2</uri>
-			<pose>-2.95 1.47 1.2 1.57 0 0</pose>
-		</include>
-
-		<include>
-			<name>apriltag-3</name>
-			<uri>model://april_tag16_05_3</uri>
-			<pose>-2.95 0.47 1.2 1.57 0 0</pose>
-		</include>
-
-		<include>
-			<name>apriltag-4</name>
-			<uri>model://april_tag16_05_4</uri>
-			<pose>-2.95 -1.47 1.2 1.57 0 0</pose>
-		</include>
-
-		<include>
-			<name>apriltag-5</name>
-			<uri>model://april_tag16_05_5</uri>
-			<pose>-2.95 -2.47 1.2 1.57 0 0</pose>
-		</include>
-
-		<include>
-			<name>apriltag-6</name>
-			<uri>model://april_tag16_05_6</uri>
-			<pose>-2.95 -3.47 1.2 1.57 0 0</pose>
 		</include>
 
 		<model name="surface">
@@ -445,6 +409,42 @@
 			</include> -->
 
 		</model>
+
+		<!-- <include>
+			<name>apriltag-1</name>
+			<uri>model://april_tag16_05_1</uri>
+			<pose>-2.95 2.47 1.2 1.57 0 0</pose>
+		</include>
+
+		<include>
+			<name>apriltag-2</name>
+			<uri>model://april_tag16_05_2</uri>
+			<pose>-2.95 1.47 1.2 1.57 0 0</pose>
+		</include>
+
+		<include>
+			<name>apriltag-3</name>
+			<uri>model://april_tag16_05_3</uri>
+			<pose>-2.95 0.47 1.2 1.57 0 0</pose>
+		</include>
+
+		<include>
+			<name>apriltag-4</name>
+			<uri>model://april_tag16_05_4</uri>
+			<pose>-2.95 -1.47 1.2 1.57 0 0</pose>
+		</include>
+
+		<include>
+			<name>apriltag-5</name>
+			<uri>model://april_tag16_05_5</uri>
+			<pose>-2.95 -2.47 1.2 1.57 0 0</pose>
+		</include>
+
+		<include>
+			<name>apriltag-6</name>
+			<uri>model://april_tag16_05_6</uri>
+			<pose>-2.95 -3.47 1.2 1.57 0 0</pose>
+		</include> -->
 
 		<gravity>0 0 -9.8</gravity>
 		<magnetic_field>6e-06 2.3e-05 -4.2e-05</magnetic_field>
