@@ -532,13 +532,13 @@
 			<include>
 				<name>apriltag-4</name>
 				<uri>model://april_tag16_05_4</uri>
-				<pose>4 5.47 1.2 1.57 0 3.14</pose>
+				<pose>4 5.47 1.5 1.57 0 3.14</pose>
 			</include>
 
 			<include>
 				<name>apriltag-5</name>
 				<uri>model://april_tag16_05_5</uri>
-				<pose>2 2.47 1.2 1.57 0 3.14</pose>
+				<pose>2 2.47 1.5 1.57 0 3.14</pose>
 			</include>
 
 			<include>
