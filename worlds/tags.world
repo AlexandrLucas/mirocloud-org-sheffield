@@ -62,7 +62,7 @@
 		<include>
 			<name>rail-S</name>
 			<uri>model://dia_rail</uri>
-  		    <pose>1.5 -0.25 0.12 0 0 0</pose>
+  			<pose>1.5 -0.25 0.12 0 0 0</pose>
 		</include>	
 
 		<include>
