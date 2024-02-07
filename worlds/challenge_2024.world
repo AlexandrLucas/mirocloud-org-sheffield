@@ -341,8 +341,8 @@
 
 		<include>
 			<name>goal</name>
-			<uri>model://stop_sign_remodeled</uri>
-			<pose>1 0.04 -1 0 0 -1.57</pose>
+			<uri>model://cylinder_red</uri>
+			<pose>1.06 0.05 0.123 0 0 0</pose>
 		</include>
 
 		<!-- Physics -->
