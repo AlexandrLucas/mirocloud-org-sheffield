@@ -345,6 +345,20 @@
 			<pose>1.06 0.05 0.123 0 0 0</pose>
 		</include>
 
+		<!-- Secondary -->
+
+		<include>
+			<name>backup1</name>
+			<uri>model://cylinder_blue</uri>
+			<pose>3.36 1 0.123 0 0 0</pose>
+		</include>
+
+		<include>
+			<name>backup2</name>
+			<uri>model://cylinder_green</uri>
+			<pose>3.36 1.5 0.123 0 0 0</pose>
+		</include>
+
 		<!-- Physics -->
 
 		<gravity>0 0 -9.8</gravity>
