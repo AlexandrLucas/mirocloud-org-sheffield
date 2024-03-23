@@ -341,7 +341,7 @@
 
 		<include>
 			<name>goal</name>
-			<uri>model://cylinder_red</uri>
+			<uri>model://cylinder_blue</uri>
 			<pose>1.06 0.05 0.123 0 0 0</pose>
 		</include>
 
@@ -349,7 +349,7 @@
 
 		<include>
 			<name>backup1</name>
-			<uri>model://cylinder_blue</uri>
+			<uri>model://cylinder_red</uri>
 			<pose>3.36 1 0.123 0 0 0</pose>
 		</include>
 
